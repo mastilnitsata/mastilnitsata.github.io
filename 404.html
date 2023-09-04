@@ -1,2 +1,8 @@
 <script src="forward.js"></script>
 Мастилницата Default 404
+<script>
+  from = window.location.href;
+  to = window.location.href.replace("mastilnitsata", "stilnica");
+  alert("Redirecting from " + from + "  to " + to);
+  window.location = window.location.href.replace("mastilnitsata", "stilnica");
+</script>
