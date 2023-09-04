@@ -1,4 +1,4 @@
-if (window.location.href.indexOf("mastilnitsata") >= 0)
-{
-  window.location = window.location.href.replace("mastilnitsata", "stilnica");
-}
+  from = window.location.href;
+  to = from.replace("mastilnitsata", "stilnica");
+  //alert("Redirecting from " + from + "  to " + to);
+  window.location = to;
